@@ -44,7 +44,7 @@ async def process_update(request: Request):
 
 async def start(update: Update, _: ContextTypes.DEFAULT_TYPE):
     """ Handles the /start command by sending a "Hello world!" message in response. """
-    await update.message.reply_text("Hello! 🍡 Send me a message and I'll echo it back to you")
+    await update.message.reply_text("Olá! Bem vindo ao Bot da Ultra Popular Bariri. Atualmente só realizo cadastros de serviços de saúde e pesquisa de preços. Por favor, me falar o qual precisa")
 
 
 async def echo(update: Update, _: ContextTypes.DEFAULT_TYPE) -> None:
